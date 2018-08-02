@@ -11,7 +11,7 @@
               <div class="progressLeftBasic" v-if="rotateAngle < 180"></div>
               <div class="progressLeft" :style="{transform:'rotateZ('+ -(360 - rotateAngle) +'deg)'}"></div>
               <div class="progressRight" v-if="rotateAngle>=180"></div>
-              <img src="https://img11.360buyimg.com/n1/jfs/t19138/240/937744554/579343/7fe7bb22/5ab240f6N6ad80f56.jpg">
+              <img src="../assets/product_bg.png">
             </div>
           </div>
       </div>
@@ -137,11 +137,13 @@ export default {
         }
       }
       img {
-        width: 354px;
-        height: 354px;
+        width: 394px;
+        height: 394px;
         border-radius: 50%;
-        margin: 0 auto;
-        margin-top: 28px;
+        position: absolute;
+        top: 13px;
+        left: 50%;
+        transform: translateX(-50%);
       }
     }
   }
