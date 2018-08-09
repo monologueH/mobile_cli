@@ -26,6 +26,9 @@ li {
   margin: 0;
   padding: 0;
 }
+html{
+  background-color: #f7d1ab;
+}
 h1,
 h2 {
   font-weight: normal;
@@ -44,10 +47,9 @@ img{
   padding: 0;
 }
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'PingFangSC-Regular', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
 }
 .bab_opt_loading {
     position: fixed;
